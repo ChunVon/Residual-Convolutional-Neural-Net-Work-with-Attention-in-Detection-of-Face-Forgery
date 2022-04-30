@@ -16,15 +16,15 @@ The idea in this project is that we can divide the deepfake photos into two grou
 
 The dataset is [deepfake-in-the-wild](https://github.com/deepfakeinthewild/deepfake-in-the-wild). I use nearly 200,000 fake and true photos each. The photos in the dataset is 224 by 224 pixels RGB pictures. Some samples are as follows:
 
-![image](https://github.com/ChunVon/Residual-Convolutional-Neural-Net-Work-with-Attention-in-Detection-of-Face-Forgery/tree/main/images/2 (7).png)
+![image](https://github.com/ChunVon/Residual-Convolutional-Neural-Net-Work-with-Attention-in-Detection-of-Face-Forgery/tree/main/images/2.png)
 
-![image](https://github.com/ChunVon/Residual-Convolutional-Neural-Net-Work-with-Attention-in-Detection-of-Face-Forgery/tree/main/images/5 (2).png)
+![image](https://github.com/ChunVon/Residual-Convolutional-Neural-Net-Work-with-Attention-in-Detection-of-Face-Forgery/tree/main/images/5.png)
 
 ## Structure
 
 The basic block is as follow:
 
-![image](https://github.com/ChunVon/Residual-Convolutional-Neural-Net-Work-with-Attention-in-Detection-of-Face-Forgery/tree/main/images/Basic Block.png)
+![image](https://github.com/ChunVon/Residual-Convolutional-Neural-Net-Work-with-Attention-in-Detection-of-Face-Forgery/tree/main/images/Basic_Block.png)
 
 The whole network is concatenation of four basic blocks like this. The CBAM part is similar to the module mentioned in the paper. 
 
