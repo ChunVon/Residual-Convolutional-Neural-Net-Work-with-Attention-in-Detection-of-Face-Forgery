@@ -34,7 +34,7 @@ And the convolutional layers are as followed:
 
 ![image](https://github.com/ChunVon/Residual-Convolutional-Neural-Net-Work-with-Attention-in-Detection-of-Face-Forgery/tree/main/images/Convolution.png)
 
-At the end of the basic block the two results from CBAM and convolution are added bitwise. Then, it serves as the input of the next basic block after a max pooling layer with kernel 2 by 2. When it goes forward to the end of the eight basic blocks, there is full connect layer with one hidden layer and two output layers. More details are available in the code(including parameters of every layer). 
+At the end of the basic block the two results from CBAM and convolution are added bitwise. Then, it serves as the input of the next basic block after a max pooling layer with kernel 2 by 2. When it goes forward to the end of the eight basic blocks, there is a full connected layer with two categoties in the end. More details are available in the code(including parameters of every layer). 
 
 ## Results
 
@@ -52,7 +52,9 @@ I use *Cross-Entropy* loss function. Obviously the model are of convergence when
 
 I report precision results for deepfakes. The last one was the method of this project. And the other two methods are from 
 
-[Recasting Residual-based Local Descriptors as Convolutional Neural Networks: an Application to Image Forgery Detection](https://www.semanticscholar.org/paper/Recasting-Residual-based-Local-Descriptors-as-an-to-Cozzolino-Poggi/8b443b98099f4d713dcdc6cd706a7010b457a586) and [Distinguishing computer graphics from natural images using convolution neural networks](https://ieeexplore.ieee.org/document/8267647). 
+[Recasting Residual-based Local Descriptors as Convolutional Neural Networks: an Application to Image Forgery Detection](https://www.semanticscholar.org/paper/Recasting-Residual-based-Local-Descriptors-as-an-to-Cozzolino-Poggi/8b443b98099f4d713dcdc6cd706a7010b457a586) 
+and 
+[Distinguishing computer graphics from natural images using convolution neural networks](https://ieeexplore.ieee.org/document/8267647). 
 
 Also, I conduct ablation experiment to test the contribution of the attention part. The loss in training are as follows:
 
