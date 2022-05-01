@@ -10,7 +10,7 @@ This project complete a task in detecting deepfake photos, using a residual CNN 
 
 [CBAM: Convolutional Block Attention Module](https://arxiv.org/abs/1807.06521v2)
 
-The idea in this project is that we can divide the deepfake photos into two groups, which are *True* and *Fake*. Then, we can use the network in classification to complete this task .The code is implemented in pytorch, with an accuracy of 82% in the dataset *deepfake_in_the_wild*. 
+The idea in this project is that we can divide the deepfake photos into two groups, which are *True* and *Fake*. Then, we can use the network in classification to complete this task .The code is implemented in pytorch, with an accuracy of 81.11% in the dataset *deepfake_in_the_wild*. 
 
 ## Dataset
 
